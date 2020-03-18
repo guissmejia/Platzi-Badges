@@ -10,9 +10,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const element = <h1>Hello Guiselle!!</h1>;
+// const jsx = <h1>Hello Guiselle!!</h1>;
+// const element = React.createElement('a', {href: 'https://platzi.com'}, 'Ir a Platzi')
+
+const name = 'Guiss';
+// const element = React.createElement('h1', {}, `Hola soy ${name}`);
+const jsx = <h1>Hola soy {name}</h1>
 
 const container = document.getElementById('app');
 
-//Recibe dos parámetros =  ReactDOM.render(__Que?, __Donde?)
-ReactDOM.render(element, container);
+ReactDOM.render(jsx, container);
