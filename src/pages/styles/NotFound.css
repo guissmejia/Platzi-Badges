@@ -1,0 +1,12 @@
+.NotFound__container{
+  padding-top: 2em;
+  height: 87vh;
+  color: #fff;
+  text-align: center;
+  background: url('../../images/stars.svg'), #1B1B25;
+  background-size: cover;
+}
+
+.NotFound__container .NotFound-image{
+  width: 35%;
+}
